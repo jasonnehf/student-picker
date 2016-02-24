@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<title>Not Your Average Homework!</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="title">NYAH &mdash; <span>N</span>ot <span>Y</span>our <span>A</span>verage <span>H</span>omework!</div>
+		<div class='input-container'>
+			<input type="text" id="name-input" autofocus="true" /> <!-- value="Jason Nehf, Kirsten Peters, Dude Duderman, Carl Brutananadilewski" -->
+			<button id="name-input-btn">Add to NYAH!</button>
+			<button id="export-btn">Export List to &lt;--</button>
+			<button id="get-random-name">Pick Random Name</button>
+			<div class="floattext" id="random-name"></div>
+		</div>
+		<div class="namelist-container" id="namelist-main-container">
+			<div class="namelist-container-little">[Double-click a name to remove it]</div>	
+			<div class="namelist-container-header">Names NYAH'd</div>
+			<ul class="namelist" id="namelist-main">
+			</ul>
+		</div>
+		<div class="teamgen-container">
+			<div class="namelist-container-header teamgen-container-header">
+				Team Generator
+				<input type="number" value="7" min="1" id="teamgen-count" />
+				<button id="teamgen-btn">Create Teams</button>
+			</div>
+
+			<div>
+			</div>	
+			<div id="teamgen-reference">
+			</div>	
+		</div>
+	</div>
+
+
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

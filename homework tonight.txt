@@ -1,0 +1,16 @@
+homework tonight
+----
+add names to a ul from an input elt
+single entries or comma-separated name list
+button to retgurn a random name button
+
+EC: create randomly generated groups, groups all same size (specified)
+
+
+_____________________   ===   ==========   ______________   ===========
+|              names | |ADD| |GET RANDOM| |NUM PER GROUP^| |MAKE GROUPS|
+----------------------  ===   ==========   -------------v   ===========
+
+ * John
+ * Mr. Dude
+ * BABABABABABABA
